@@ -28,7 +28,7 @@ class Router
 
         $method = $_SERVER['REQUEST_METHOD'];
 
-        //dividimos la URL actual cada vez que exista un '?' eso indica que se están pasando variables por la url
+        // Dividimos la URL actual cada vez que exista un '?' eso indica que se están pasando variables por la url
         $splitURL = explode('?', $currentUrl);
         
         if ($method === 'GET') {
